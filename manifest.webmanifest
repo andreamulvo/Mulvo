@@ -1,0 +1,9 @@
+{
+  "name": "Mulvo · Formazione",
+  "short_name": "Formazione",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#5b4bdb",
+  "lang": "it"
+}

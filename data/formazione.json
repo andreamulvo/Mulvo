@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "settings": {
+    "weeklyGoalMinutes": 180,
+    "staleDays": 7
+  },
+  "courses": [],
+  "sessions": [],
+  "reviews": {},
+  "milestones": [],
+  "deleted": []
+}

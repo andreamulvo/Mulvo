@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mulvo · Formazione</title>
+  <meta name="description" content="Corsi, sessioni di studio, streak e revisione settimanale.">
+  <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16151a" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#view">Vai al contenuto</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/"><span aria-hidden="true">📚</span> Mulvo <span class="brand-sub">Formazione</span></a>
+      <nav class="nav" aria-label="Sezioni">
+        <a href="#/" data-nav="home">Home</a>
+        <a href="#/corsi" data-nav="corsi">Corsi</a>
+        <a href="#/sessioni" data-nav="sessioni">Sessioni</a>
+        <a href="#/revisione" data-nav="revisione">Revisione</a>
+        <a href="#/idee" data-nav="idee">Idee</a>
+      </nav>
+      <div class="topbar-right">
+        <a id="sync" class="sync" href="#/impostazioni" hidden></a>
+        <a class="icon-btn" href="#/impostazioni" data-nav="impostazioni" aria-label="Impostazioni" title="Impostazioni">⚙︎</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="view" class="container" tabindex="-1"></main>
+
+  <button class="fab" data-action="open-session" aria-label="Registra sessione di studio"><span aria-hidden="true">+</span> Sessione</button>
+
+  <nav class="tabbar" aria-label="Sezioni">
+    <a href="#/" data-nav="home"><span aria-hidden="true">🏠</span>Home</a>
+    <a href="#/corsi" data-nav="corsi"><span aria-hidden="true">📚</span>Corsi</a>
+    <a href="#/sessioni" data-nav="sessioni"><span aria-hidden="true">⏱️</span>Sessioni</a>
+    <a href="#/revisione" data-nav="revisione"><span aria-hidden="true">🗓️</span>Revisione</a>
+    <a href="#/idee" data-nav="idee"><span aria-hidden="true">💡</span>Idee</a>
+  </nav>
+
+  <dialog id="session-dialog" aria-label="Registra sessione"></dialog>
+  <dialog id="celebrate-dialog" aria-label="Traguardo raggiunto"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
